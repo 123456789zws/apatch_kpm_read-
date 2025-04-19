@@ -99,9 +99,9 @@ private:
 
     };
     uint64_t key_vertify;
-    uint64_t cmd_read;
-    uint64_t cmd_write;
-    uint64_t cmd_mod;
+    unsigned int cmd_read;
+    unsigned int cmd_write;
+    unsigned int cmd_mod;
     struct kpm_read kread;
     struct kpm_mod kmod;
 
